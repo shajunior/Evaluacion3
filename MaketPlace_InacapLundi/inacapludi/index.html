@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8"  />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title> MaketPlace InacapLudi</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts/scripts.js"></script>
+    
+</head>
+
+<body>
+    <nav>
+        <div id="inicioDeSesion">
+            <input id="nombreDeUsuario" type="text" placeholder="Ingresa tu nombre" />
+            <button onclick="iniciarSesion()">Iniciar Sesión</button>
+        </div>
+        <button onclick="verCarrito()">Ver Carrito</button>
+    </nav>
+
+    <dialog id="dialogCarrito">
+        <button onclick="cerrarCarrito()">Cerrar carrito</button>
+        <div id="listadoCarrito">
+        </div>
+    </dialog>
+
+    <section>
+        <h1> Listado Productos MaketPlace_InacapLundi</h1>
+        <div id="listadoProductos">
+        </div>
+    </section>
+</body>
+
+<script src="./script.js"></script>
+
+</html>
